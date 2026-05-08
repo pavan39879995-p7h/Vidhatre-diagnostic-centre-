@@ -1,0 +1,44 @@
+:root {
+    --primary-color: #004d4d; /* Dark Teal */
+    --accent-color: #ffcc00;  /* Yellow/Orange */
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(0, 77, 77, 0.8), rgba(0, 77, 77, 0.8)), 
+                url('hero-bg.jpg') center/cover no-repeat;
+    height: 80vh;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    transition: 0.3s ease;
+}
+
+.floating-btns {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.whatsapp-btn, .call-btn {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.whatsapp-btn { background: #25D366; }
+.call-btn { background: var(--accent-color); }
+
+.nav-link:hover { color: var(--accent-color) !important; }
