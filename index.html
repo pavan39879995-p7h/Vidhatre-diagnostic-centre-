@@ -335,4 +335,97 @@ footer ul li a:hover { color:#ffa04a; }
   </div>
 </section>
 
-<!-- LOCATION -
+!-- LOCATION -->
+<section id="location">
+  <div class="sec-head">
+    <div class="sec-tag">Find Us</div>
+    <h2>Visit Our <span>Center</span></h2>
+    <div class="divider"></div>
+  </div>
+  <div class="lwrap">
+    <div class="mapbox">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.534890765327!2d77.50361731482208!3d13.00985399082038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3dbf1df6b32f%3A0x1!2sVidhatre+Diagnostic+Center!5e0!3m2!1sen!2sin!4v1683000000000!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <div class="linfo">
+      <h2>Contact &amp; <span>Location</span></h2>
+      <div class="litem"><div class="licon">📍</div><div><h4>Address</h4><p>49/6, 6th Cross Rd, Sanjeevini Nagar,<br/>Bengaluru, Karnataka – 560091</p></div></div>
+      <div class="litem"><div class="licon">📞</div><div><h4>Phone</h4><p>063632 19912 &nbsp;|&nbsp; +91 9100907036</p></div></div>
+      <div class="litem"><div class="licon">🕐</div><div><h4>Working Hours</h4><p>Monday – Sunday: 7:00 AM – 10:00 PM</p></div></div>
+      <div class="litem"><div class="licon">🚌</div><div><h4>Nearest Landmark</h4><p>Near Vasu Store, Hegganahalli Cross<br/>Bus Stop – 389m walk</p></div></div>
+      <a class="btn-dir" href="https://maps.google.com/?q=Vidhatre+Diagnostic+Center+Bengaluru" target="_blank">📍 Get Directions on Google Maps</a>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<div class="cta">
+  <h2>Ready to Book Your Test?</h2>
+  <p>Fast appointments · Accurate results · Compassionate care</p>
+  <div class="cta-btns">
+    <a class="btn-cw" href="tel:06363219912">📞 Call Now</a>
+    <a class="btn-co" href="https://wa.me/916363219912" target="_blank">💬 WhatsApp Us</a>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="fgrid">
+    <div>
+      <div class="logo" style="margin-bottom:12px">
+        <div class="logo-icon" style="width:36px;height:36px;font-size:1.1rem">🩺</div>
+        <div><span class="logo-name" style="color:#7dd8e8">VIDHATRE</span><span class="logo-sub">Diagnostic Center</span></div>
+      </div>
+      <p style="font-size:0.86rem;line-height:1.7">Trusted diagnostics for your family. Accurate lab reports with compassionate care at Sanjeevini Nagar, Bengaluru.</p>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#appointment">Appointment</a></li>
+        <li><a href="#location">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="tel:06363219912">📞 063632 19912</a></li>
+        <li><a href="https://wa.me/916363219912">💬 WhatsApp</a></li>
+        <li><a href="#location">📍 Sanjeevini Nagar, BLR</a></li>
+        <li><a href="#">🕐 7 AM – 10 PM Daily</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="fbottom">
+    <span>© 2024 Vidhatre Diagnostic Center. All rights reserved.</span>
+    <span>Made with ❤️ in Bengaluru</span>
+  </div>
+</footer>
+
+<!-- FLOATING BUTTONS -->
+<div class="fabs">
+  <a class="fab fab-wa" href="https://wa.me/916363219912" target="_blank">💬</a>
+  <a class="fab fab-call" href="tel:06363219912">📞</a>
+</div>
+<button id="stbtn" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+<script>
+function submitForm(){
+  var n=document.getElementById('fname').value.trim();
+  var p=document.getElementById('fphone').value.trim();
+  var d=document.getElementById('fdate').value;
+  var t=document.getElementById('ftime').value;
+  var s=document.getElementById('fservice').value;
+  if(!n||!p||!d||!t||!s){alert('Please fill in all required fields.');return;}
+  document.getElementById('bformInner').style.display='none';
+  document.getElementById('fsuccess').style.display='block';
+}
+var di=document.getElementById('fdate');
+if(di)di.min=new Date().toISOString().split('T')[0];
+var sb=document.getElementById('stbtn');
+sb.style.opacity='0';sb.style.transition='opacity .3s';
+window.addEventListener('scroll',function(){sb.style.opacity=window.scrollY>300?'1':'0';});
+</script>
+</body>
+</html>
