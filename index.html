@@ -5,163 +5,196 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <title>Vidhatre Diagnostic Center - Bengaluru</title>
 <style>
-* { margin:0; padding:0; box-sizing:border-box; }
-html { scroll-behavior:smooth; }
-body { font-family:Arial,sans-serif; color:#0d1f2d; background:#fff; overflow-x:hidden; }
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:Arial,sans-serif;color:#0d1f2d;background:#fff;overflow-x:hidden;}
 
-/* TOP BAR */
-.topbar { background:#0d1f2d; color:#cde4ec; font-size:0.78rem; padding:7px 5%; display:flex; justify-content:space-between; align-items:center; }
+/* TOPBAR */
+.topbar{background:#0d1f2d;color:#cde4ec;font-size:0.78rem;padding:7px 5%;display:flex;justify-content:space-between;align-items:center;}
 
 /* NAV */
-nav { position:sticky; top:0; z-index:1000; background:#fff; box-shadow:0 2px 12px rgba(14,122,139,.15); padding:0 5%; display:flex; align-items:center; height:64px; }
-.logo { display:flex; align-items:center; gap:10px; text-decoration:none; }
-.logo-icon { width:42px; height:42px; border-radius:10px; background:linear-gradient(135deg,#0e7a8b,#13a3b8); display:flex; align-items:center; justify-content:center; font-size:1.4rem; flex-shrink:0; }
-.logo-name { font-size:1.1rem; font-weight:700; color:#0e7a8b; display:block; }
-.logo-sub { font-size:0.62rem; color:#6b7f8a; text-transform:uppercase; letter-spacing:.08em; }
-.nav-links { display:flex; gap:4px; margin-left:28px; }
-.nav-links a { padding:8px 12px; font-size:0.88rem; font-weight:500; color:#2e4a5a; text-decoration:none; border-radius:6px; }
-.nav-links a:hover { color:#0e7a8b; }
-.nav-right { margin-left:auto; display:flex; align-items:center; gap:12px; }
-.nav-phone { font-size:0.88rem; font-weight:600; color:#0e7a8b; }
-.btn-book { background:#f47c20; color:#fff; font-weight:700; font-size:0.88rem; padding:10px 20px; border-radius:8px; text-decoration:none; }
+nav{position:sticky;top:0;z-index:1000;background:#fff;box-shadow:0 2px 12px rgba(14,122,139,.15);padding:0 4%;display:flex;align-items:center;height:62px;}
+.logo{display:flex;align-items:center;gap:9px;text-decoration:none;}
+.logo-icon{width:40px;height:40px;border-radius:9px;background:linear-gradient(135deg,#0e7a8b,#13a3b8);display:flex;align-items:center;justify-content:center;font-size:1.3rem;flex-shrink:0;}
+.logo-name{font-size:1rem;font-weight:700;color:#0e7a8b;display:block;}
+.logo-sub{font-size:0.6rem;color:#6b7f8a;text-transform:uppercase;letter-spacing:.08em;}
+.nav-links{display:flex;gap:2px;margin-left:24px;}
+.nav-links a{padding:7px 10px;font-size:0.83rem;font-weight:500;color:#2e4a5a;text-decoration:none;border-radius:6px;}
+.nav-links a:hover{color:#0e7a8b;}
+.nav-right{margin-left:auto;display:flex;align-items:center;gap:10px;}
+.nav-phone{font-size:0.83rem;font-weight:600;color:#0e7a8b;}
+.btn-book{background:#f47c20;color:#fff;font-weight:700;font-size:0.85rem;padding:9px 18px;border-radius:8px;text-decoration:none;white-space:nowrap;}
 
-/* HERO - NO ANIMATIONS */
-.hero { background:linear-gradient(135deg,#0e7a8b 0%,#0b5e6e 100%); padding:52px 5% 56px; }
-.hero-badge { display:inline-block; background:rgba(255,255,255,.18); color:#e0f4f7; font-size:0.8rem; padding:5px 14px; border-radius:20px; margin-bottom:16px; border:1px solid rgba(255,255,255,.25); }
-.hero h1 { font-size:clamp(1.7rem,5vw,2.8rem); font-weight:800; color:#fff; line-height:1.2; margin-bottom:10px; }
-.hero h1 span { color:#ffc87a; }
-.hero-sub { color:rgba(255,255,255,.8); font-size:0.95rem; margin-bottom:26px; text-transform:uppercase; letter-spacing:.05em; }
-.hero-btns { display:flex; gap:12px; flex-wrap:wrap; margin-bottom:32px; }
-.btn-h1 { background:#f47c20; color:#fff; font-weight:700; font-size:1rem; padding:13px 28px; border-radius:9px; text-decoration:none; display:inline-block; }
-.btn-h2 { background:rgba(255,255,255,.15); color:#fff; font-weight:600; font-size:1rem; padding:13px 28px; border-radius:9px; text-decoration:none; display:inline-block; border:2px solid rgba(255,255,255,.5); }
-.hero-stats { display:flex; gap:28px; flex-wrap:wrap; }
-.hstat { color:#fff; }
-.hstat strong { display:block; font-size:1.5rem; font-weight:800; }
-.hstat span { font-size:0.75rem; opacity:.75; text-transform:uppercase; }
+/* HERO */
+.hero{background:linear-gradient(135deg,#0e7a8b 0%,#0b5e6e 100%);padding:48px 5% 52px;}
+.hero-badge{display:inline-block;background:rgba(255,255,255,.18);color:#e0f4f7;font-size:0.78rem;padding:5px 14px;border-radius:20px;margin-bottom:14px;border:1px solid rgba(255,255,255,.25);}
+.hero h1{font-size:clamp(1.6rem,5vw,2.7rem);font-weight:800;color:#fff;line-height:1.2;margin-bottom:10px;}
+.hero h1 span{color:#ffc87a;}
+.hero-sub{color:rgba(255,255,255,.8);font-size:0.9rem;margin-bottom:24px;text-transform:uppercase;letter-spacing:.05em;}
+.hero-btns{display:flex;gap:12px;flex-wrap:wrap;margin-bottom:30px;}
+.btn-h1{background:#f47c20;color:#fff;font-weight:700;font-size:0.95rem;padding:12px 26px;border-radius:9px;text-decoration:none;display:inline-block;}
+.btn-h2{background:rgba(255,255,255,.15);color:#fff;font-weight:600;font-size:0.95rem;padding:12px 26px;border-radius:9px;text-decoration:none;display:inline-block;border:2px solid rgba(255,255,255,.5);}
+.hero-stats{display:flex;gap:24px;flex-wrap:wrap;}
+.hstat{color:#fff;}
+.hstat strong{display:block;font-size:1.4rem;font-weight:800;}
+.hstat span{font-size:0.72rem;opacity:.75;text-transform:uppercase;}
 
-/* SECTIONS */
-section { padding:56px 5%; }
-.sec-tag { display:inline-block; background:#f47c20; color:#fff; font-size:0.72rem; font-weight:700; letter-spacing:.12em; text-transform:uppercase; padding:4px 14px; border-radius:20px; margin-bottom:10px; }
-.sec-head { text-align:center; margin-bottom:40px; }
-.sec-head h2 { font-size:clamp(1.5rem,3vw,2.1rem); color:#0d1f2d; margin-top:6px; }
-.sec-head h2 span { color:#0e7a8b; }
-.divider { width:48px; height:4px; border-radius:2px; background:linear-gradient(90deg,#f47c20,#0e7a8b); margin:14px auto 0; }
+/* COMMON SECTION */
+section{padding:52px 5%;}
+.sec-tag{display:inline-block;background:#f47c20;color:#fff;font-size:0.7rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;padding:4px 13px;border-radius:20px;margin-bottom:9px;}
+.sec-head{text-align:center;margin-bottom:38px;}
+.sec-head h2{font-size:clamp(1.4rem,3vw,2rem);color:#0d1f2d;margin-top:5px;}
+.sec-head h2 span{color:#0e7a8b;}
+.divider{width:44px;height:4px;border-radius:2px;background:linear-gradient(90deg,#f47c20,#0e7a8b);margin:12px auto 0;}
 
 /* SERVICES */
-#services { background:#f9f6f1; }
-.sgrid { display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:16px; }
-.scard { background:#fff; border-radius:14px; padding:22px 16px; text-align:center; box-shadow:0 2px 12px rgba(14,122,139,.08); border:1.5px solid transparent; transition:transform .25s,border-color .25s; }
-.scard:hover { transform:translateY(-5px); border-color:#13a3b8; }
-.sicon { width:58px; height:58px; border-radius:14px; margin:0 auto 12px; display:flex; align-items:center; justify-content:center; font-size:1.7rem; }
-.si-t { background:#e0f4f7; }
-.si-o { background:#fef0e3; }
-.si-r { background:#fde8e8; }
-.si-g { background:#e3f7ec; }
-.scard h3 { font-size:0.95rem; font-weight:600; color:#0d1f2d; margin-bottom:6px; }
-.scard p { font-size:0.81rem; color:#6b7f8a; line-height:1.6; }
+#services{background:#f9f6f1;}
+.sgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;}
+.scard{background:#fff;border-radius:13px;padding:20px 14px;text-align:center;box-shadow:0 2px 10px rgba(14,122,139,.08);border:1.5px solid transparent;transition:transform .25s,border-color .25s;}
+.scard:hover{transform:translateY(-5px);border-color:#13a3b8;}
+.sicon{width:55px;height:55px;border-radius:13px;margin:0 auto 11px;display:flex;align-items:center;justify-content:center;font-size:1.6rem;}
+.si-t{background:#e0f4f7;}.si-o{background:#fef0e3;}.si-r{background:#fde8e8;}.si-g{background:#e3f7ec;}
+.scard h3{font-size:0.88rem;font-weight:600;color:#0d1f2d;margin-bottom:5px;}
+.scard p{font-size:0.77rem;color:#6b7f8a;line-height:1.55;}
+
+/* PACKAGES */
+#packages{background:#fff;}
+.pkg-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;}
+.pkg-card{background:#fff;border-radius:14px;overflow:hidden;box-shadow:0 4px 18px rgba(14,122,139,.12);display:flex;flex-direction:column;transition:transform .25s;}
+.pkg-card:hover{transform:translateY(-5px);}
+.pkg-top{padding:14px 12px 10px;text-align:center;}
+.pkg-top h3{font-size:0.92rem;font-weight:800;color:#fff;margin-bottom:3px;}
+.pkg-top p{font-size:0.7rem;color:rgba(255,255,255,.85);}
+.pkg-body{padding:12px;flex:1;}
+.pkg-body ul{list-style:none;}
+.pkg-body ul li{font-size:0.74rem;color:#2e4a5a;padding:3px 0;border-bottom:1px solid #f0f4f6;display:flex;align-items:flex-start;gap:5px;}
+.pkg-body ul li::before{content:'✓';color:#0e7a8b;font-weight:700;font-size:0.74rem;flex-shrink:0;margin-top:1px;}
+.pkg-foot{padding:12px;text-align:center;border-top:1px solid #f0f4f6;}
+.pkg-price{font-size:1.4rem;font-weight:800;margin-bottom:9px;}
+.pkg-btn{display:block;width:100%;padding:9px;border-radius:8px;border:none;cursor:pointer;font-weight:700;font-size:0.84rem;color:#fff;}
+.pkg-btn:active{opacity:.8;}
+
+/* FACULTY */
+#faculty{background:#f9f6f1;}
+.fac-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;}
+.fac-card{background:#fff;border-radius:13px;overflow:hidden;box-shadow:0 2px 12px rgba(14,122,139,.1);border:2px solid transparent;transition:transform .25s,border-color .25s;text-align:center;}
+.fac-card:hover{transform:translateY(-5px);border-color:#f47c20;}
+.fac-img{height:100px;display:flex;align-items:center;justify-content:center;font-size:2.8rem;}
+.fac-info{padding:11px 8px 14px;}
+.fac-info h4{font-size:0.83rem;font-weight:700;color:#0d1f2d;margin-bottom:3px;}
+.fac-info span{font-size:0.72rem;color:#0e7a8b;font-weight:500;}
 
 /* REVIEWS */
-#reviews { background:#f9f6f1; }
-.rbig { text-align:center; margin-bottom:32px; }
-.rnum { font-size:4.5rem; font-weight:800; color:#f47c20; line-height:1; }
-.rstars { font-size:1.5rem; color:#f47c20; letter-spacing:3px; }
-.rsub { color:#6b7f8a; font-size:0.88rem; margin-top:4px; }
-.rgrid { display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:16px; }
-.rcard { background:#fff; border-radius:12px; padding:20px; border-left:4px solid #f47c20; box-shadow:0 2px 10px rgba(14,122,139,.07); }
-.rcard-stars { color:#f47c20; font-size:0.9rem; margin-bottom:8px; }
-.rcard-text { font-size:0.87rem; color:#2e4a5a; line-height:1.65; font-style:italic; margin-bottom:12px; }
-.rcard-author { display:flex; align-items:center; gap:10px; }
-.rav { width:34px; height:34px; border-radius:50%; background:linear-gradient(135deg,#0e7a8b,#13a3b8); display:flex; align-items:center; justify-content:center; font-size:0.85rem; font-weight:700; color:#fff; flex-shrink:0; }
-.rname { font-weight:600; font-size:0.86rem; color:#0d1f2d; }
-.rdate { font-size:0.74rem; color:#6b7f8a; }
+#reviews{background:#f9f6f1;}
+.rbig{text-align:center;margin-bottom:30px;}
+.rnum{font-size:4rem;font-weight:800;color:#f47c20;line-height:1;}
+.rstars{font-size:1.4rem;color:#f47c20;letter-spacing:3px;}
+.rsub{color:#6b7f8a;font-size:0.85rem;margin-top:4px;}
+.rgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
+.rcard{background:#fff;border-radius:11px;padding:18px;border-left:4px solid #f47c20;box-shadow:0 2px 10px rgba(14,122,139,.07);}
+.rcard-stars{color:#f47c20;font-size:0.88rem;margin-bottom:7px;}
+.rcard-text{font-size:0.84rem;color:#2e4a5a;line-height:1.6;font-style:italic;margin-bottom:12px;}
+.rcard-author{display:flex;align-items:center;gap:9px;}
+.rav{width:32px;height:32px;border-radius:50%;background:linear-gradient(135deg,#0e7a8b,#13a3b8);display:flex;align-items:center;justify-content:center;font-size:0.82rem;font-weight:700;color:#fff;flex-shrink:0;}
+.rname{font-weight:600;font-size:0.82rem;color:#0d1f2d;}
+.rdate{font-size:0.72rem;color:#6b7f8a;}
 
 /* APPOINTMENT */
-#appointment { background:#fff; }
-.awrap { display:grid; grid-template-columns:1fr 1fr; gap:40px; align-items:start; }
-.ainfo h2 { font-size:clamp(1.4rem,2.5vw,1.9rem); color:#0d1f2d; margin-bottom:10px; }
-.ainfo h2 span { color:#0e7a8b; }
-.ainfo p { font-size:0.9rem; color:#6b7f8a; line-height:1.7; margin-bottom:20px; }
-.aperks { display:flex; flex-direction:column; gap:10px; }
-.aperk { display:flex; align-items:center; gap:12px; background:#f9f6f1; border-radius:10px; padding:12px 14px; font-size:0.88rem; font-weight:500; color:#2e4a5a; }
-.aperk-icon { width:34px; height:34px; border-radius:8px; flex-shrink:0; background:linear-gradient(135deg,#0e7a8b,#13a3b8); display:flex; align-items:center; justify-content:center; font-size:1rem; }
-.bform { background:#fff; border-radius:18px; padding:30px 24px; box-shadow:0 6px 32px rgba(14,122,139,.13); border-top:4px solid #f47c20; }
-.bform h3 { font-size:1.3rem; font-weight:700; color:#0d1f2d; margin-bottom:6px; }
-.bform > p { font-size:0.83rem; color:#6b7f8a; margin-bottom:20px; }
-.frow { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
-.fgrp { display:flex; flex-direction:column; gap:5px; margin-bottom:12px; }
-.fgrp label { font-size:0.77rem; font-weight:700; color:#2e4a5a; text-transform:uppercase; letter-spacing:.05em; }
-.fgrp input,.fgrp select,.fgrp textarea { padding:10px 13px; border:1.5px solid #dde8ec; border-radius:8px; font-family:Arial,sans-serif; font-size:0.9rem; color:#0d1f2d; background:#f9f6f1; outline:none; width:100%; }
-.fgrp input:focus,.fgrp select:focus,.fgrp textarea:focus { border-color:#0e7a8b; background:#fff; }
-.fgrp textarea { resize:vertical; min-height:75px; }
-.fbtn { width:100%; background:#f47c20; color:#fff; font-weight:700; font-size:1rem; padding:13px; border-radius:9px; border:none; cursor:pointer; margin-top:4px; }
-.fbtn:hover { background:#e05a00; }
-.fsuccess { display:none; text-align:center; padding:24px; color:#0e7a8b; font-weight:600; font-size:1rem; }
-.fsuccess .ck { font-size:2.8rem; display:block; margin-bottom:8px; }
+#appointment{background:#fff;}
+.awrap{display:grid;grid-template-columns:1fr 1fr;gap:36px;align-items:start;}
+.ainfo h2{font-size:clamp(1.3rem,2.5vw,1.8rem);color:#0d1f2d;margin-bottom:9px;}
+.ainfo h2 span{color:#0e7a8b;}
+.ainfo p{font-size:0.88rem;color:#6b7f8a;line-height:1.7;margin-bottom:18px;}
+.aperks{display:flex;flex-direction:column;gap:9px;}
+.aperk{display:flex;align-items:center;gap:11px;background:#f9f6f1;border-radius:9px;padding:11px 13px;font-size:0.85rem;font-weight:500;color:#2e4a5a;}
+.aperk-icon{width:32px;height:32px;border-radius:7px;flex-shrink:0;background:linear-gradient(135deg,#0e7a8b,#13a3b8);display:flex;align-items:center;justify-content:center;font-size:0.95rem;}
+.bform{background:#fff;border-radius:16px;padding:28px 22px;box-shadow:0 6px 30px rgba(14,122,139,.13);border-top:4px solid #f47c20;}
+.bform h3{font-size:1.2rem;font-weight:700;color:#0d1f2d;margin-bottom:5px;}
+.bform>p{font-size:0.8rem;color:#6b7f8a;margin-bottom:18px;}
+.frow{display:grid;grid-template-columns:1fr 1fr;gap:11px;}
+.fgrp{display:flex;flex-direction:column;gap:4px;margin-bottom:11px;}
+.fgrp label{font-size:0.74rem;font-weight:700;color:#2e4a5a;text-transform:uppercase;letter-spacing:.05em;}
+.fgrp input,.fgrp select,.fgrp textarea{padding:9px 12px;border:1.5px solid #dde8ec;border-radius:7px;font-family:Arial,sans-serif;font-size:0.88rem;color:#0d1f2d;background:#f9f6f1;outline:none;width:100%;}
+.fgrp input:focus,.fgrp select:focus,.fgrp textarea:focus{border-color:#0e7a8b;background:#fff;}
+.fgrp textarea{resize:vertical;min-height:70px;}
+.fbtn{width:100%;background:#f47c20;color:#fff;font-weight:700;font-size:0.95rem;padding:12px;border-radius:8px;border:none;cursor:pointer;margin-top:3px;}
+.fbtn:hover{background:#e06010;}
+.fsuccess{display:none;text-align:center;padding:22px;color:#0e7a8b;font-weight:600;font-size:0.95rem;}
+.fsuccess .ck{font-size:2.6rem;display:block;margin-bottom:7px;}
 
 /* LOCATION */
-#location { background:#f9f6f1; }
-.lwrap { display:grid; grid-template-columns:1fr 1fr; gap:32px; align-items:start; }
-.mapbox { border-radius:16px; overflow:hidden; box-shadow:0 6px 24px rgba(14,122,139,.14); }
-.mapbox iframe { width:100%; height:320px; border:none; display:block; }
-.linfo { display:flex; flex-direction:column; gap:12px; }
-.linfo h2 { font-size:clamp(1.4rem,2.5vw,1.9rem); color:#0d1f2d; margin-bottom:4px; }
-.linfo h2 span { color:#0e7a8b; }
-.litem { display:flex; gap:12px; align-items:flex-start; background:#fff; border-radius:10px; padding:14px; box-shadow:0 2px 10px rgba(14,122,139,.06); }
-.licon { width:38px; height:38px; border-radius:9px; flex-shrink:0; background:linear-gradient(135deg,#0e7a8b,#13a3b8); display:flex; align-items:center; justify-content:center; font-size:1rem; }
-.litem h4 { font-size:0.78rem; font-weight:700; color:#6b7f8a; text-transform:uppercase; letter-spacing:.04em; margin-bottom:3px; }
-.litem p { font-size:0.9rem; color:#0d1f2d; font-weight:500; line-height:1.5; }
-.btn-dir { background:#0e7a8b; color:#fff; font-weight:700; font-size:0.9rem; padding:12px 24px; border-radius:9px; text-decoration:none; display:block; text-align:center; margin-top:4px; }
+#location{background:#f9f6f1;}
+.lwrap{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:start;}
+.mapbox{border-radius:14px;overflow:hidden;box-shadow:0 6px 22px rgba(14,122,139,.14);}
+.mapbox iframe{width:100%;height:300px;border:none;display:block;}
+.linfo{display:flex;flex-direction:column;gap:11px;}
+.linfo h2{font-size:clamp(1.3rem,2.5vw,1.8rem);color:#0d1f2d;margin-bottom:3px;}
+.linfo h2 span{color:#0e7a8b;}
+.litem{display:flex;gap:11px;align-items:flex-start;background:#fff;border-radius:9px;padding:12px;box-shadow:0 2px 8px rgba(14,122,139,.06);}
+.licon{width:36px;height:36px;border-radius:8px;flex-shrink:0;background:linear-gradient(135deg,#0e7a8b,#13a3b8);display:flex;align-items:center;justify-content:center;font-size:0.95rem;}
+.litem h4{font-size:0.74rem;font-weight:700;color:#6b7f8a;text-transform:uppercase;letter-spacing:.04em;margin-bottom:2px;}
+.litem p{font-size:0.87rem;color:#0d1f2d;font-weight:500;line-height:1.5;}
+.btn-dir{background:#0e7a8b;color:#fff;font-weight:700;font-size:0.87rem;padding:11px 22px;border-radius:8px;text-decoration:none;display:block;text-align:center;margin-top:3px;}
 
 /* CTA */
-.cta { background:linear-gradient(135deg,#0e7a8b,#0d1f2d); padding:56px 5%; text-align:center; }
-.cta h2 { font-size:clamp(1.5rem,3vw,2.2rem); color:#fff; margin-bottom:10px; }
-.cta p { color:rgba(255,255,255,.75); font-size:0.95rem; margin-bottom:28px; }
-.cta-btns { display:flex; gap:14px; justify-content:center; flex-wrap:wrap; }
-.btn-cw { background:#fff; color:#0e7a8b; font-weight:700; font-size:0.95rem; padding:13px 28px; border-radius:9px; text-decoration:none; display:inline-block; }
-.btn-co { border:2px solid rgba(255,255,255,.6); color:#fff; font-weight:600; font-size:0.95rem; padding:13px 28px; border-radius:9px; text-decoration:none; display:inline-block; }
+.cta{background:linear-gradient(135deg,#0e7a8b,#0d1f2d);padding:52px 5%;text-align:center;}
+.cta h2{font-size:clamp(1.4rem,3vw,2rem);color:#fff;margin-bottom:9px;}
+.cta p{color:rgba(255,255,255,.75);font-size:0.92rem;margin-bottom:26px;}
+.cta-btns{display:flex;gap:13px;justify-content:center;flex-wrap:wrap;}
+.btn-cw{background:#fff;color:#0e7a8b;font-weight:700;font-size:0.92rem;padding:12px 26px;border-radius:8px;text-decoration:none;display:inline-block;}
+.btn-co{border:2px solid rgba(255,255,255,.6);color:#fff;font-weight:600;font-size:0.92rem;padding:12px 26px;border-radius:8px;text-decoration:none;display:inline-block;}
 
 /* FOOTER */
-footer { background:#0d1f2d; color:rgba(255,255,255,.65); padding:44px 5% 22px; }
-.fgrid { display:grid; grid-template-columns:2fr 1fr 1fr; gap:32px; margin-bottom:28px; }
-footer h4 { color:#fff; font-size:0.88rem; font-weight:700; margin-bottom:12px; }
-footer ul { list-style:none; }
-footer ul li { margin-bottom:8px; }
-footer ul li a { color:rgba(255,255,255,.6); text-decoration:none; font-size:0.86rem; }
-footer ul li a:hover { color:#ffa04a; }
-.fbottom { border-top:1px solid rgba(255,255,255,.1); padding-top:16px; display:flex; justify-content:space-between; font-size:0.8rem; flex-wrap:wrap; gap:6px; }
+footer{background:#0d1f2d;color:rgba(255,255,255,.65);padding:40px 5% 20px;}
+.fgrid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:28px;margin-bottom:24px;}
+footer h4{color:#fff;font-size:0.85rem;font-weight:700;margin-bottom:11px;}
+footer ul{list-style:none;}
+footer ul li{margin-bottom:7px;}
+footer ul li a{color:rgba(255,255,255,.6);text-decoration:none;font-size:0.83rem;}
+footer ul li a:hover{color:#ffa04a;}
+.fbottom{border-top:1px solid rgba(255,255,255,.1);padding-top:14px;display:flex;justify-content:space-between;font-size:0.78rem;flex-wrap:wrap;gap:5px;}
 
 /* FLOATING */
-.fabs { position:fixed; right:16px; bottom:68px; display:flex; flex-direction:column; gap:10px; z-index:999; }
-.fab { width:50px; height:50px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:1.3rem; text-decoration:none; box-shadow:0 4px 14px rgba(0,0,0,.22); border:none; cursor:pointer; }
-.fab-wa { background:#25d366; color:#fff; }
-.fab-call { background:#f47c20; color:#fff; }
-#stbtn { position:fixed; right:16px; bottom:16px; width:40px; height:40px; border-radius:9px; background:#0e7a8b; color:#fff; font-size:1rem; display:flex; align-items:center; justify-content:center; cursor:pointer; z-index:999; border:none; box-shadow:0 4px 12px rgba(14,122,139,.35); }
+.fabs{position:fixed;right:15px;bottom:65px;display:flex;flex-direction:column;gap:9px;z-index:999;}
+.fab{width:48px;height:48px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:1.25rem;text-decoration:none;box-shadow:0 4px 13px rgba(0,0,0,.22);border:none;cursor:pointer;}
+.fab-wa{background:#25d366;color:#fff;}
+.fab-call{background:#f47c20;color:#fff;}
+#stbtn{position:fixed;right:15px;bottom:15px;width:38px;height:38px;border-radius:8px;background:#0e7a8b;color:#fff;font-size:1rem;display:flex;align-items:center;justify-content:center;cursor:pointer;z-index:999;border:none;box-shadow:0 4px 11px rgba(14,122,139,.35);}
 
 /* MOBILE */
-@media (max-width:768px) {
-  .nav-links { display:none; }
-  .topbar span:last-child { display:none; }
-  .hero { padding:36px 5% 44px; }
-  .hero h1 { font-size:1.6rem; }
-  .hero-btns { flex-direction:column; }
-  .btn-h1,.btn-h2 { text-align:center; width:100%; }
-  .hero-stats { gap:16px; }
-  .sgrid { grid-template-columns:1fr 1fr; }
-  .rgrid { grid-template-columns:1fr; }
-  .awrap { grid-template-columns:1fr; }
-  .frow { grid-template-columns:1fr; }
-  .bform { padding:20px 14px; }
-  .lwrap { grid-template-columns:1fr; }
-  .fgrid { grid-template-columns:1fr; gap:20px; }
-  .fbottom { flex-direction:column; text-align:center; }
-  section { padding:44px 5%; }
-  .nav-right .nav-phone { display:none; }
+@media(max-width:900px){
+  .sgrid{grid-template-columns:repeat(2,1fr);}
+  .pkg-grid{grid-template-columns:repeat(2,1fr);}
+  .fac-grid{grid-template-columns:repeat(2,1fr);}
+  .rgrid{grid-template-columns:repeat(2,1fr);}
+}
+@media(max-width:768px){
+  .nav-links{display:none;}
+  .topbar span:last-child{display:none;}
+  .nav-right .nav-phone{display:none;}
+  .hero{padding:34px 5% 42px;}
+  .hero h1{font-size:1.55rem;}
+  .hero-btns{flex-direction:column;}
+  .btn-h1,.btn-h2{text-align:center;width:100%;}
+  .hero-stats{gap:14px;}
+  .sgrid{grid-template-columns:repeat(2,1fr);}
+  .pkg-grid{grid-template-columns:repeat(2,1fr);}
+  .fac-grid{grid-template-columns:repeat(2,1fr);}
+  .rgrid{grid-template-columns:1fr;}
+  .awrap{grid-template-columns:1fr;}
+  .frow{grid-template-columns:1fr;}
+  .bform{padding:18px 13px;}
+  .lwrap{grid-template-columns:1fr;}
+  .mapbox iframe{height:220px;}
+  .fgrid{grid-template-columns:1fr;gap:18px;}
+  .fbottom{flex-direction:column;text-align:center;}
+  section{padding:40px 5%;}
 }
 </style>
 </head>
 <body>
 
-<!-- TOP BAR -->
+<!-- TOPBAR -->
 <div class="topbar">
   <span>📍 49/6, 6th Cross Rd, Sanjeevini Nagar, Bengaluru – 560091</span>
   <span>Mon – Sun: 7:00 AM – 10:00 PM</span>
@@ -179,6 +212,8 @@ footer ul li a:hover { color:#ffa04a; }
   <div class="nav-links">
     <a href="#">Home</a>
     <a href="#services">Services</a>
+    <a href="#packages">Packages</a>
+    <a href="#faculty">Faculty</a>
     <a href="#reviews">Reviews</a>
     <a href="#appointment">Appointment</a>
     <a href="#location">Contact</a>
@@ -225,6 +260,154 @@ footer ul li a:hover { color:#ffa04a; }
   </div>
 </section>
 
+<!-- PACKAGES -->
+<section id="packages">
+  <div class="sec-head">
+    <div class="sec-tag">Exclusive Offers</div>
+    <h2>Health <span>Package Plans</span></h2>
+    <div class="divider"></div>
+    <p style="color:#6b7f8a;font-size:0.88rem;margin-top:10px;">Comprehensive health checkup packages at affordable prices</p>
+  </div>
+  <div class="pkg-grid">
+
+    <div class="pkg-card">
+      <div class="pkg-top" style="background:linear-gradient(135deg,#0e7a8b,#13a3b8)">
+        <h3>Executive Health</h3><p>59 Parameters</p>
+      </div>
+      <div class="pkg-body"><ul>
+        <li>CBP (CBC+PS)</li><li>Kidney Basic Screen</li><li>Liver Function Test</li>
+        <li>Lipid Profile</li><li>Thyroid Profile – II</li><li>Iron Profile</li>
+        <li>HBA1c</li><li>Calcium</li><li>Phosphorus</li>
+      </ul></div>
+      <div class="pkg-foot">
+        <div class="pkg-price" style="color:#0e7a8b">₹ 225/-</div>
+        <button class="pkg-btn" style="background:linear-gradient(135deg,#0e7a8b,#13a3b8)" onclick="bookPkg('Executive Health','59 Parameters','₹225')">📅 Book Now</button>
+      </div>
+    </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top" style="background:linear-gradient(135deg,#2e7d32,#43a047)">
+        <h3>Master Health</h3><p>69 Parameters</p>
+      </div>
+      <div class="pkg-body"><ul>
+        <li>CBP (CBC+PS)</li><li>Kidney Basic Screen</li><li>Liver Function Test</li>
+        <li>Lipid Profile</li><li>Thyroid Profile – II</li><li>Iron Profile</li>
+        <li>HBA1c</li><li>Calcium</li><li>Phosphorus</li><li>ESR</li><li>CUE</li>
+      </ul></div>
+      <div class="pkg-foot">
+        <div class="pkg-price" style="color:#2e7d32">₹ 250/-</div>
+        <button class="pkg-btn" style="background:linear-gradient(135deg,#2e7d32,#43a047)" onclick="bookPkg('Master Health','69 Parameters','₹250')">📅 Book Now</button>
+      </div>
+    </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top" style="background:linear-gradient(135deg,#1565c0,#1e88e5)">
+        <h3>Premium Health</h3><p>79 Parameters</p>
+      </div>
+      <div class="pkg-body"><ul>
+        <li>CBP (CBC+PS)</li><li>Kidney Basic Screen</li><li>Liver Function Test</li>
+        <li>Lipid Profile</li><li>Thyroid Profile – II</li><li>Iron Profile</li>
+        <li>HBA1C</li><li>Calcium</li><li>Phosphorus</li><li>ESR</li><li>CUE</li>
+        <li>Vitamin D</li><li>Folic Acid</li><li>Vitamin B12</li><li>EGFR</li>
+      </ul></div>
+      <div class="pkg-foot">
+        <div class="pkg-price" style="color:#1565c0">₹ 500/-</div>
+        <button class="pkg-btn" style="background:linear-gradient(135deg,#1565c0,#1e88e5)" onclick="bookPkg('Premium Health','79 Parameters','₹500')">📅 Book Now</button>
+      </div>
+    </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top" style="background:linear-gradient(135deg,#e65100,#f57c00)">
+        <h3>Gold Health</h3><p>89 Parameters</p>
+      </div>
+      <div class="pkg-body"><ul>
+        <li>CBP (CBC+PS)</li><li>Kidney Basic Screen</li><li>Liver Function Test</li>
+        <li>Lipid Profile</li><li>Thyroid Profile – II</li><li>Iron Profile</li>
+        <li>HBA1C</li><li>Calcium</li><li>Phosphorus</li><li>ESR</li><li>CUE</li>
+        <li>Vitamin D</li><li>Folic Acid</li><li>Vitamin B12</li><li>EGFR</li>
+        <li>Amylase</li><li>Lipase</li><li>LDH</li><li>Ferritin</li>
+        <li>eABG</li><li>Microalbumin</li><li>Urine Creatinine</li>
+      </ul></div>
+      <div class="pkg-foot">
+        <div class="pkg-price" style="color:#e65100">₹ 900/-</div>
+        <button class="pkg-btn" style="background:linear-gradient(135deg,#e65100,#f57c00)" onclick="bookPkg('Gold Health','89 Parameters','₹900')">📅 Book Now</button>
+      </div>
+    </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top" style="background:linear-gradient(135deg,#6a1b9a,#9c27b0)">
+        <h3>Platinum Health</h3><p>99 Parameters</p>
+      </div>
+      <div class="pkg-body"><ul>
+        <li>CBP (CBC+PS)</li><li>Kidney Basic Screen</li><li>Liver Function Test</li>
+        <li>Lipid Profile</li><li>Thyroid Profile – II</li><li>Iron Profile</li>
+        <li>HBA1C</li><li>Calcium</li><li>Phosphorus</li><li>ESR</li><li>CUE</li>
+        <li>Vitamin D</li><li>Folic Acid</li><li>Vitamin B12</li><li>EGFR</li>
+      </ul></div>
+      <div class="pkg-foot">
+        <div class="pkg-price" style="color:#1565c0">₹ 500/-</div>
+        <button class="pkg-btn" style="background:linear-gradient(135deg,#1565c0,#1e88e5)" onclick="bookPkg('Premium Health','79 Parameters','₹500')">📅 Book Now</button>
+      </div>
+    </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top" style="background:linear-gradient(135deg,#e65100,#f57c00)">
+        <h3>Gold Health</h3><p>89 Parameters</p>
+      </div>
+      <div class="pkg-body"><ul>
+        <li>CBP (CBC+PS)</li><li>Kidney Basic Screen</li><li>Liver Function Test</li>
+        <li>Lipid Profile</li><li>Thyroid Profile – II</li><li>Iron Profile</li>
+        <li>HBA1C</li><li>Calcium</li><li>Phosphorus</li><li>ESR</li><li>CUE</li>
+        <li>Vitamin D</li><li>Folic Acid</li><li>Vitamin B12</li><li>EGFR</li>
+        <li>Amylase</li><li>Lipase</li><li>LDH</li><li>Ferritin</li>
+        <li>eABG</li><li>Microalbumin</li><li>Urine Creatinine</li>
+      </ul></div>
+      <div class="pkg-foot">
+        <div class="pkg-price" style="color:#e65100">₹ 900/-</div>
+        <button class="pkg-btn" style="background:linear-gradient(135deg,#e65100,#f57c00)" onclick="bookPkg('Gold Health','89 Parameters','₹900')">📅 Book Now</button>
+      </div>
+    </div>
+
+    <div class="pkg-card">
+      <div class="pkg-top" style="background:linear-gradient(135deg,#6a1b9a,#9c27b0)">
+        <h3>Platinum Health</h3><p>99 Parameters</p>
+      </div>
+      <div class="pkg-body"><ul>
+        <li>CBP (CBC+PS)</li><li>Kidney Basic Screen</li><li>Liver Function Test</li>
+        <li>Lipid Profile</li><li>Thyroid Profile – II</li><li>Iron Profile</li>
+        <li>HBA1c</li><li>Calcium</li><li>Phosphorus</li><li>ESR</li><li>CUE</li>
+        <li>Vitamin D</li><li>Folic Acid</li><li>Vitamin B12</li><li>EGFR</li>
+        <li>Amylase</li><li>Lipase</li><li>LDH</li><li>Homocysteine</li>
+        <li>Hs CRP</li><li>Ferritin</li><li>eABG</li><li>Microalbumin</li>
+        <li>Urine Creatinine</li><li>CPK</li><li>Testosterone</li>
+        <li>APO A1</li><li>APO B</li><li>FBS</li><li>PLBS</li>
+        <li>Zinc</li><li>PSA Total / CA 125</li>
+      </ul></div>
+      <div class="pkg-foot">
+        <div class="pkg-price" style="color:#6a1b9a">₹ 1200/-</div>
+        <button class="pkg-btn" style="background:linear-gradient(135deg,#6a1b9a,#9c27b0)" onclick="bookPkg('Platinum Health','99 Parameters','₹1200')">📅 Book Now</button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- FACULTY -->
+<section id="faculty">
+  <div class="sec-head">
+    <div class="sec-tag">Meet the Team</div>
+    <h2>Our <span>Expert Faculty</span></h2>
+    <div class="divider"></div>
+  </div>
+  <div class="fac-grid">
+    <div class="fac-card"><div class="fac-img" style="background:linear-gradient(135deg,#e0f4f7,#b8e8ef)">👨‍⚕️</div><div class="fac-info"><h4>Dr. Rajesh Sharma</h4><span>Head Pathologist</span></div></div>
+    <div class="fac-card"><div class="fac-img" style="background:linear-gradient(135deg,#fef0e3,#ffd9b3)">👩‍⚕️</div><div class="fac-info"><h4>Dr. Priya Singh</h4><span>Radiologist</span></div></div>
+    <div class="fac-card"><div class="fac-img" style="background:linear-gradient(135deg,#e3f7ec,#b8efcf)">👨‍🔬</div><div class="fac-info"><h4>Mr. Arun Patel</h4><span>Lab Manager</span></div></div>
+    <div class="fac-card"><div class="fac-img" style="background:linear-gradient(135deg,#f3e8fd,#dab8ef)">👩‍🔬</div><div class="fac-info"><h4>Ms. Deepa Rao</h4><span>Phlebotomist</span></div></div>
+    <div class="fac-card"><div class="fac-img" style="background:linear-gradient(135deg,#fde8e8,#fcbdbd)">👨‍💻</div><div class="fac-info"><h4>Mr. Suresh Gupta</h4><span>Sr. Technician</span></div></div>
+  </div>
+</section>
+
 <!-- REVIEWS -->
 <section id="reviews">
   <div class="sec-head">
@@ -238,31 +421,11 @@ footer ul li a:hover { color:#ffa04a; }
     <p class="rsub">Based on 10+ Google Reviews</p>
   </div>
   <div class="rgrid">
-    <div class="rcard">
-      <div class="rcard-stars">★★★★★</div>
-      <p class="rcard-text">"I visited yesterday for a blood test. Very good service and quick reports. Highly recommended!"</p>
-      <div class="rcard-author"><div class="rav">R</div><div><div class="rname">Ravi Kumar</div><div class="rdate">Google Review · 5/5</div></div></div>
-    </div>
-    <div class="rcard">
-      <div class="rcard-stars">★★★★★</div>
-      <p class="rcard-text">"Very good ambience. Clean and hygienic environment. Staff is cooperative and very friendly."</p>
-      <div class="rcard-author"><div class="rav">S</div><div><div class="rname">Sunitha Nair</div><div class="rdate">Google Review · 5/5</div></div></div>
-    </div>
-    <div class="rcard">
-      <div class="rcard-stars">★★★★★</div>
-      <p class="rcard-text">"Good hygiene maintenance and timely delivery of test reports. Very accurate results. Will come again."</p>
-      <div class="rcard-author"><div class="rav">M</div><div><div class="rname">Mohan Reddy</div><div class="rdate">Google Review · 5/5</div></div></div>
-    </div>
-    <div class="rcard">
-      <div class="rcard-stars">★★★★★</div>
-      <p class="rcard-text">"Excellent staff and very professional. Reports delivered on WhatsApp on time. Very affordable pricing."</p>
-      <div class="rcard-author"><div class="rav">A</div><div><div class="rname">Anjali Verma</div><div class="rdate">Google Review · 5/5</div></div></div>
-    </div>
-    <div class="rcard">
-      <div class="rcard-stars">★★★★★</div>
-      <p class="rcard-text">"Best diagnostic center near Hegganahalli. Quick service and highly accurate results. Strongly recommend!"</p>
-      <div class="rcard-author"><div class="rav">K</div><div><div class="rname">Karthik Naidu</div><div class="rdate">Google Review · 5/5</div></div></div>
-    </div>
+    <div class="rcard"><div class="rcard-stars">★★★★★</div><p class="rcard-text">"I visited yesterday for a blood test. Very good service and quick reports. Highly recommended!"</p><div class="rcard-author"><div class="rav">R</div><div><div class="rname">Ravi Kumar</div><div class="rdate">Google Review · 5/5</div></div></div></div>
+    <div class="rcard"><div class="rcard-stars">★★★★★</div><p class="rcard-text">"Very good ambience. Clean and hygienic environment. Staff is cooperative and very friendly."</p><div class="rcard-author"><div class="rav">S</div><div><div class="rname">Sunitha Nair</div><div class="rdate">Google Review · 5/5</div></div></div></div>
+    <div class="rcard"><div class="rcard-stars">★★★★★</div><p class="rcard-text">"Good hygiene maintenance and timely delivery of test reports. Very accurate results. Will come again."</p><div class="rcard-author"><div class="rav">M</div><div><div class="rname">Mohan Reddy</div><div class="rdate">Google Review · 5/5</div></div></div></div>
+    <div class="rcard"><div class="rcard-stars">★★★★★</div><p class="rcard-text">"Excellent staff and very professional. Reports delivered on WhatsApp on time. Very affordable pricing."</p><div class="rcard-author"><div class="rav">A</div><div><div class="rname">Anjali Verma</div><div class="rdate">Google Review · 5/5</div></div></div></div>
+    <div class="rcard"><div class="rcard-stars">★★★★★</div><p class="rcard-text">"Best diagnostic center near Hegganahalli. Quick service and highly accurate results. Strongly recommend!"</p><div class="rcard-author"><div class="rav">K</div><div><div class="rname">Karthik Naidu</div><div class="rdate">Google Review · 5/5</div></div></div></div>
   </div>
 </section>
 
@@ -276,7 +439,7 @@ footer ul li a:hover { color:#ffa04a; }
   <div class="awrap">
     <div class="ainfo">
       <h2>Quick &amp; Easy <span>Online Booking</span></h2>
-      <p>Book your test in seconds. Our team will confirm your slot and guide you on any preparation needed.</p>
+      <p>Book your test in seconds. Our team will confirm your slot and guide you on preparation needed.</p>
       <div class="aperks">
         <div class="aperk"><div class="aperk-icon">⚡</div>Instant confirmation via call or WhatsApp</div>
         <div class="aperk"><div class="aperk-icon">🕐</div>Flexible slots — 7:00 AM to 10:00 PM daily</div>
@@ -329,7 +492,7 @@ footer ul li a:hover { color:#ffa04a; }
         <span class="ck">✅</span>
         <strong>Appointment Request Sent!</strong><br/>
         We will call you shortly to confirm.<br/>
-        <span style="font-size:0.82rem;color:#6b7f8a;font-weight:400">Urgent? Call: <a href="tel:06363219912" style="color:#0e7a8b">063632 19912</a></span>
+        <span style="font-size:0.8rem;color:#6b7f8a;font-weight:400">Urgent? Call: <a href="tel:06363219912" style="color:#0e7a8b">063632 19912</a></span>
       </div>
     </div>
   </div>
@@ -344,7 +507,7 @@ footer ul li a:hover { color:#ffa04a; }
   </div>
   <div class="lwrap">
     <div class="mapbox">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.534890765327!2d77.50361731482208!3d13.00985399082038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3dbf1df6b32f%3A0x1!2sVidhatre+Diagnostic+Center!5e0!3m2!1sen!2sin!4v1683000000000!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.534890765327!2d77.50361731482208!3d13.00985399082038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3dbf1df6b32f%3A0x1!2sVidhatre+Diagnostic+Center!5e0!3m2!1sen!2sin!4v1683000000000" allowfullscreen="" loading="lazy"></iframe>
     </div>
     <div class="linfo">
       <h2>Contact &amp; <span>Location</span></h2>
@@ -371,17 +534,19 @@ footer ul li a:hover { color:#ffa04a; }
 <footer>
   <div class="fgrid">
     <div>
-      <div class="logo" style="margin-bottom:12px">
-        <div class="logo-icon" style="width:36px;height:36px;font-size:1.1rem">🩺</div>
+      <div class="logo" style="margin-bottom:11px">
+        <div class="logo-icon" style="width:34px;height:34px;font-size:1rem">🩺</div>
         <div><span class="logo-name" style="color:#7dd8e8">VIDHATRE</span><span class="logo-sub">Diagnostic Center</span></div>
       </div>
-      <p style="font-size:0.86rem;line-height:1.7">Trusted diagnostics for your family. Accurate lab reports with compassionate care at Sanjeevini Nagar, Bengaluru.</p>
+      <p style="font-size:0.83rem;line-height:1.7">Trusted diagnostics for your family. Accurate lab reports with compassionate care at Sanjeevini Nagar, Bengaluru.</p>
     </div>
     <div>
       <h4>Quick Links</h4>
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#services">Services</a></li>
+        <li><a href="#packages">Packages</a></li>
+        <li><a href="#faculty">Faculty</a></li>
         <li><a href="#reviews">Reviews</a></li>
         <li><a href="#appointment">Appointment</a></li>
         <li><a href="#location">Contact</a></li>
@@ -403,7 +568,7 @@ footer ul li a:hover { color:#ffa04a; }
   </div>
 </footer>
 
-<!-- FLOATING BUTTONS -->
+<!-- FLOATING -->
 <div class="fabs">
   <a class="fab fab-wa" href="https://wa.me/916363219912" target="_blank">💬</a>
   <a class="fab fab-call" href="tel:06363219912">📞</a>
@@ -411,16 +576,51 @@ footer ul li a:hover { color:#ffa04a; }
 <button id="stbtn" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
 
 <script>
+function bookPkg(name,params,price){
+  var n=prompt('Enter your Full Name:');
+  if(!n||!n.trim()){alert('Name is required.');return;}
+  var p=prompt('Enter your Phone Number:');
+  if(!p||!p.trim()){alert('Phone is required.');return;}
+  var d=prompt('Preferred Date (e.g. 2026-05-15):');
+  var t=prompt('Preferred Time (e.g. 9AM-11AM):');
+  var msg='*Package Booking – Vidhatre Diagnostic Center*%0A'
+    +'================================%0A'
+    +'📦 *Package:* '+encodeURIComponent(name)+'%0A'
+    +'🔬 *Parameters:* '+encodeURIComponent(params)+'%0A'
+    +'💰 *Price:* '+encodeURIComponent(price)+'%0A'
+    +'================================%0A'
+    +'👤 *Name:* '+encodeURIComponent(n.trim())+'%0A'
+    +'📞 *Phone:* '+encodeURIComponent(p.trim())+'%0A'
+    +(d?'📅 *Date:* '+encodeURIComponent(d)+'%0A':'')
+    +(t?'🕐 *Time:* '+encodeURIComponent(t)+'%0A':'')
+    +'================================%0A'
+    +'_Sent from Vidhatre website_';
+  window.open('https://wa.me/916363219912?text='+msg,'_blank');
+}
+
 function submitForm(){
   var n=document.getElementById('fname').value.trim();
   var p=document.getElementById('fphone').value.trim();
   var d=document.getElementById('fdate').value;
   var t=document.getElementById('ftime').value;
   var s=document.getElementById('fservice').value;
+  var notes=document.getElementById('fnotes').value.trim();
   if(!n||!p||!d||!t||!s){alert('Please fill in all required fields.');return;}
+  var msg='*Appointment Request – Vidhatre Diagnostic Center*%0A'
+    +'================================%0A'
+    +'👤 *Name:* '+encodeURIComponent(n)+'%0A'
+    +'📞 *Phone:* '+encodeURIComponent(p)+'%0A'
+    +'📅 *Date:* '+encodeURIComponent(d)+'%0A'
+    +'🕐 *Time:* '+encodeURIComponent(t)+'%0A'
+    +'🔬 *Service:* '+encodeURIComponent(s)+'%0A'
+    +(notes?'📝 *Notes:* '+encodeURIComponent(notes)+'%0A':'')
+    +'================================%0A'
+    +'_Sent from Vidhatre website_';
+  window.open('https://wa.me/916363219912?text='+msg,'_blank');
   document.getElementById('bformInner').style.display='none';
   document.getElementById('fsuccess').style.display='block';
 }
+
 var di=document.getElementById('fdate');
 if(di)di.min=new Date().toISOString().split('T')[0];
 var sb=document.getElementById('stbtn');
@@ -428,4 +628,4 @@ sb.style.opacity='0';sb.style.transition='opacity .3s';
 window.addEventListener('scroll',function(){sb.style.opacity=window.scrollY>300?'1':'0';});
 </script>
 </body>
-</html>
+    </html>
